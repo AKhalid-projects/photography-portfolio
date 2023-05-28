@@ -47,15 +47,4 @@ gulp.task("watch", () => {
 // Default Task
 gulp.task('default', gulp.series('watch'));
 
-exports.default = gulp.series(
-  watch,
-  js,
-  html,
-  css
-);
-exports.build = gulp.series(
-  watch,
-  js,
-  html,
-  css
-);
+gulp.task("build", gulp.series("html", "css", "js"));
