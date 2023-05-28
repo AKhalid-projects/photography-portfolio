@@ -15,16 +15,20 @@
     "photography",
     "portfolio"
   ],
-  "author": "Kareem Mohamed",
+  "author": "Abdelrahman Khaled",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kareem-m/photography-portfolio/issues"
   },
   "homepage": "https://github.com/kareem-m/photography-portfolio#readme",
   "devDependencies": {
+    "connect-history-api-fallback": "^2.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-html-replace": "^1.6.2",
     "gulp-livereload": "^4.0.2",
     "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.1.0",
