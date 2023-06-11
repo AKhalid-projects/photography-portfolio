@@ -22,7 +22,7 @@ submit.onclick = function send() {
     message = textarea.value;
 
   window.open(
-    `https://api.whatsapp.com/send?phone=+201015945282&text=Hi, Amr! My name is ${perName}, I want to tell you that ${message}`
+    `https://api.whatsapp.com/send?phone=+9737320462&text=Hi, Abdelrahman! My name is ${perName}, I want to tell you that ${message}`
   );
   perName.value = "";
   message.value = "";
