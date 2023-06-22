@@ -1,92 +1,36 @@
-include ../includes/galleryIncludes.pug
+include ../includes/categoryIncludes.pug
 doctype html
 html(lang="en")
   head
     +head("Education | Ismail Salah")
   body
     +nav
-    //- start main page
-    
-    .main
-      +heading("Education")
+    //- Start Gallery
+    section.gallery#gallery
+      +heading("Education", "Collection of albums for the education Industry")
       .container
-        .text(data-aos="fade-right")
-          h1 Canadian School
-      .container
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/1.jpg", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/1.jpg")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/1.jpg", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/1.jpg")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/1.jpg", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/1.jpg")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/1.jpg", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/1.jpg")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/1.jpg", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/1.jpg")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="https://www.youtube.com/watch?v=ne4A4qqoW5g", class="fancybox", data-fancybox="gallery1")
-            video(width="320", height="240", poster="https://i.ytimg.com/vi/ne4A4qqoW5g/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBms69LoLKNUw_OObbu4RJTl67lNQ")
-              source(src="../imagesGallery/education/cinematic-video.mp4", type="video/mp4")
-      .container
-        .text(data-aos="fade-right")
-          h1 HiPO Youth
-      .container
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-1.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-1.png")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-2.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-2.png")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-3.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-3.png")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-4.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-4.png")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-5.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-5.png")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-6.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-6.png")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-7.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-7.png") 
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-8.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-8.png")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-9.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-9.png")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-10.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-10.png")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-11.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-11.png")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-12.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-12.png")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-13.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-13.png") 
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-14.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-14.png")
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="../imagesGallery/education/hipo/hipo-15.png", class="fancybox", data-fancybox="gallery1")
-            img(src="../imagesGallery/education/hipo/hipo-15.png")              
-        div.container-fluid(data-aos="zoom-in-up")
-          a(href="https://www.youtube.com/watch?v=ne4A4qqoW5g", class="fancybox", data-fancybox="gallery1")
-            video(width="320", height="240", poster="https://i.ytimg.com/vi/ne4A4qqoW5g/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBms69LoLKNUw_OObbu4RJTl67lNQ")
-              source(src="../imagesGallery/education/cinematic-video.mp4", type="video/mp4")
-
-    //- End main page
+        .container
+          a(href="education/hipo" data-aos="zoom-in-up").gallery-box
+              .image
+                img(src="../ImagesGallery/education/hipo/hipo-3.png")
+              .text.center-flex
+                p HiPO Youth
+          a(href="education/muharraq-center-1" data-aos="zoom-in-up").gallery-box
+            .image
+              img(src="../imagesGallery/education/muharraq-center-1/muharraq-center-1-3.png")
+            .text.center-flex
+              p Muharraq Center 1
+          a(href="education/muharraq-center-2" data-aos="zoom-in-up").gallery-box
+            .image
+              img(src="../imagesGallery/education/muharraq-center-2/muharraq-center-2-1.png")
+            .text.center-flex
+              p Muharraq Center 2
+          a(href="education/muharraq-center-3" data-aos="zoom-in-up").gallery-box
+            .image
+              img(src="../imagesGallery/education/muharraq-center-3/muharraq-center-3-7.png")
+            .text.center-flex
+              p Muharraq Center 3
+    //- End Gallery
     +footer
     +loading
-    +scripts
+    +athers("gallery")
